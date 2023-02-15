@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instrument Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=PT+Sans+Narrow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/3587aca0ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="font-montserrat">
+    <nav
+      class="w-full font-sanNarrow font-bold dark:bg-slate-900 dark:text-white"
+    >
+      <div class="container relative p-6">
+        <div class="flex items center justify-between text-xl">
+          <div>
+            <a href="">INSTRUMENT</a>
+          </div>
+          <div
+            class="hidden flex-row justify-between items-center gap-4 md:flex"
+          >
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              >WHAT WE DO</a
+            >
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              >WHO WE ARE
+            </a>
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              >BEING HERE</a
+            >
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              >CAREERS</a
+            >
+            <img
+              id="dark-one"
+              class="w-6 h-6 cursor-pointer ml-16"
+              src="images/moon.png"
+              alt=""
+            />
+          </div>
+
+          <button
+            class="wrapper-btn md:hidden block dark:bg-slate-900 dark:text-white"
+            id="menu-btn"
+          >
+            <span class="hamburger-1 bg-black dark:bg-white"></span>
+            <span class="hamburger-2 bg-black dark:bg-white"></span>
+            <span class="hamburger-3 bg-black dark:bg-white"></span>
+          </button>
+        </div>
+
+        <!-- hamburger menu -->
+
+        <div class="md:hidden">
+          <div
+            class="hidden absolute flex-col items-center gap-4 left-6 right-6 self-end pt-12 bg-white pb-16 dark:bg-slate-900 dark:text-white"
+            id="menu"
+          >
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              >WHAT WE DO</a
+            >
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              >WHO WE ARE
+            </a>
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              >BEING HERE</a
+            >
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              >CAREERS</a
+            >
+            <img
+              id="dark-two"
+              class="w-8 h-8 cursor-pointer"
+              src="images/moon.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="hero" class="dark:bg-slate-900 dark:text-white">
+      <div class="container flex flex-col p-6 space-y-12 md:spave-y-10">
+        <div class="space-y-4">
+          <h1 class="font-black text-5xl tracking-wide">Build. Grow. Serve.</h1>
+          <p class="font-bold md:w-1/2">
+            We are investing $3 million over the next 3 years in our
+            Build|Grow|Serve program, created to support and empower
+            underrepresented communities.
+          </p>
+          <button
+            class="bg-white text-black text-xs tracking-widest border-2 border-black py-3 px-5 rounded-full hover:text-white hover:bg-black dark:hover:bg-slate-500"
+          >
+            Learn More <span class="uil uil-arrow-right"></span>
+          </button>
+        </div>
+        <div class="">
+          <img src="images/heading.jpg" alt="" class="md:h-620 md:w-full" />
+        </div>
+      </div>
+    </section>
+
+    <!-- feature section -->
+    <section id="feature" class="dark:bg-slate-900 dark:text-white">
+      <div class="container flex flex-col pt-10 px-6 space-y-12">
+        <div class="flex flex-col items-center">
+          <h2
+            class="text-center font-bold text-2xl tracking-wide leading-7 md:w-3/4"
+          >
+            We enrich human lives through the thoughtful application of design
+            and tecnology
+          </h2>
+        </div>
+
+        <!-- feature one -->
+
+        <div
+          class="flex flex-col space-y-6 md:space-y-0 md:space-x-7 md:flex-row"
+        >
+          <div class="xl:w-1/2 md:w-1/2">
+            <img src="images/test-1.jpeg" alt="" class="xl:max-w-md" />
+          </div>
+          <div class="space-y-4 md:w-1/2">
+            <p class="md:py-2">
+              In the summer of 2020, We reported our representation data and
+              commited to doing so annually.One year later, we are pleased to
+              share an update on our goals, our progress, and the work that
+              still needs to be done.
+            </p>
+            <button
+              class="bg-black text-white text-xs tracking-widest border-2 py-3 px-5 rounded-full hover:text-black hover:bg-white"
+            >
+              Learn More <span class="uil uil-arrow-right"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- feature two -->
+        <div class="flex flex-col space-y-6 md:space-y-0 md:flex-row-reverse">
+          <div class="xl:w-1/2 md:w-1/2">
+            <img src="images/test-2.jpeg" alt="" class="xl:max-w-md" />
+          </div>
+          <div class="space-y-4 md:w-1/2">
+            <p class="md:p-2">
+              In our third episode of On Air, we explore all that's happened
+              within the last six months, the reality of showing up everyday as
+              a BIPOC employee in Corporate America, and our future vision for
+              diversity, equity, and inclusion.
+            </p>
+            <button
+              class="bg-black text-white text-xs tracking-widest border-2 py-3 px-5 rounded-full hover:text-black hover:bg-white"
+            >
+              Read More <span class="uil uil-arrow-right"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- feature three -->
+
+        <div
+          class="flex flex-col space-y-6 md:space-y-0 md:space-x-7 md:flex-row"
+        >
+          <div class="xl:w-1/2 md:w-1/2">
+            <img src="images/test-3.jpg" alt="" class="xl:max-w-md" />
+          </div>
+          <div class="space-y-4 md:w-1/2">
+            <p class="md:py-4">
+              As a full service partner to the world's most ambitious companies,
+              we create transformational change through best-in-class digital
+              products and communication
+            </p>
+            <button
+              class="bg-black text-white text-xs tracking-widest border-2 py-3 px-5 rounded-full hover:text-black hover:bg-white"
+            >
+              what we do <span class="uil uil-arrow-right"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial section -->
+
+    <section id="testimonial" class="dark:bg-slate-900 dark:text-white">
+      <div class="p-6 pt-12 container flex flex-col space-y-20">
+        <div class="text-center space-y-6">
+          <h3 class="font-bold text-2xl">
+            Explore a few of our most impactful projects
+          </h3>
+          <button
+            class="bg-white text-black text-xs tracking-widest border-2 py-3 px-5 rounded-full hover:text-white hover:bg-black dark:hover:bg-slate-500"
+          >
+            Learn More <span class="uil uil-arrow-right"></span>
+          </button>
+        </div>
+
+        <div
+          class="flex flex-col md:flex-row space-y-10 md:space-y-0 md:gap-12"
+        >
+          <div class="space-y-2 md:w-1/2">
+            <img src="images/footer-1.jpeg" alt="" />
+            <h3 class="font-bold text-xl">Levi's</h3>
+            <p class="leading-5 text-sm">
+              We partnered with Levi's, an icon of America industry and culture,
+              to reimagine levi.com for a new generation of shoppers and the
+              digital future of retail.
+            </p>
+          </div>
+          <div class="space-y-2 md:w-1/2">
+            <img src="images/footer-2.jpg" alt="" />
+            <h3 class="font-bold text-xl">Dropbox Brand Campaign</h3>
+            <p class="leading-5 text-sm">
+              Dropbox is on a path to becoming a muilti-product company. To
+              bring their customers new and old along for that journey, we
+              helped reimagine how Dropbox engages with their audience.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-center space-x-10">
+          <i class="fa-brands fa-google fa-2xl"></i>
+          <i class="fa-brands fa-paypal fa-2xl"></i>
+          <i class="fa-brands fa-windows fa-2xl hidden md:inline-block"></i>
+          <i class="fa-brands fa-dropbox fa-2xl"></i>
+          <i class="fa-brands fa-spotify fa-2xl hidden md:inline-block"></i>
+          <i class="fa-brands fa-discord fa-2xl hidden sm:inline-block"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section id="footer" class="dark:bg-slate-900 dark:text-white">
+      <div class="container px-6 pt-14 space-y-14 pb-4">
+        <div class="text-center space-y-6">
+          <h2 class="font-bold text-5xl font-sanNarrow">
+            We'd love to be your partner
+          </h2>
+          <button
+            class="bg-white text-black text-xs tracking-widest border-2 py-3 px-5 rounded-full hover:text-white hover:bg-black dark:hover:bg-slate-500"
+          >
+            Learn More <span class="uil uil-arrow-right"></span>
+          </button>
+        </div>
+
+        <div
+          class="flex flex-col space-y-14 md:space-y-0 md:flex-row md:justify-between md:relative"
+        >
+          <div class="flex justify-between md:justify-start md:gap-28">
+            <ul class="font-sanNarrow font-bold space-y-2">
+              <li>
+                <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+                  >WHAT WE DO</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+                  >WORK</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+                  >WHO WE ARE</a
+                >
+              </li>
+            </ul>
+            <ul class="font-sanNarrow font-bold space-y-2">
+              <li>
+                <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+                  >BEING HERE</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+                  >CAREERS</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+                  >CONTACT</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+                  >PRIVACY</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="text-center space-x-4 md:absolute md:bottom-0 md:right-0">
+            <button
+              class="font-sanNarrow font-bold bg-white text-black text-xs tracking-widest border-2 py-3 px-5 rounded-full hover:text-white hover:bg-black dark:hover:bg-slate-500"
+            >
+              NEWSLETTER <span class="uil uil-arrow-right"></span>
+            </button>
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              ><i class="fa-brands fa-instagram fa-xl"></i
+            ></a>
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              ><i class="fa-brands fa-twitter fa-xl"></i
+            ></a>
+            <a href="" class="hover:text-gray-300 dark:hover:text-slate-500"
+              ><i class="fa-brands fa-linkedin fa-xl"></i
+            ></a>
+          </div>
+        </div>
+        <div class="font-sanNarrow text-center">
+          Copyright &copy; 2023, All Right Reserverd
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
